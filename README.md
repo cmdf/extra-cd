@@ -37,8 +37,3 @@ Change directory with shortcuts in Windows Console.
 :: remove DOSBox shortcut
 > ocd -dosbox
 ```
-
-
-## license
-
-Do you have a Poké ball? That's enough!
