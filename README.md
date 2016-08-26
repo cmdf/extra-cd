@@ -36,4 +36,13 @@ Change directory with shortcuts in Windows Console.
 
 :: remove DOSBox shortcut
 > ocd -dosbox
+
+:: add relative path shortcut
+> ocd +up3 ../../..
+
+:: go up 3 directories
+> ocd =up3
+
+:: remove relative path shortcut
+> ocd -up3
 ```
