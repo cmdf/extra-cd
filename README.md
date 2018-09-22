@@ -1,5 +1,5 @@
 Change directory with shortcuts in Windows Console.
-> 1. Download [console script](https://github.com/winp/extra-cd/releases/download/1.0.0/ecd.cmd).
+> 1. Download [console script](https://github.com/cmdf/extra-cd/releases/download/1.0.0/ecd.cmd).
 > 2. Copy to `C:\Program_Files\Scripts`.
 > 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 
@@ -48,4 +48,4 @@ Change directory with shortcuts in Windows Console.
 <br><br>
 
 
-[![Merferry](https://i.imgur.com/Ki9lyzP.jpg)](https://merferry.github.io)
+[![cmdf](https://i.imgur.com/Ki9lyzP.jpg)](https://cmdf.github.io)
