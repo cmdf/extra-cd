@@ -4,8 +4,6 @@ Change directory with shortcuts in Windows Console.
 > 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 
 
-## usage
-
 ```batch
 > ecd [-|[-|+|=]<path>]
 
