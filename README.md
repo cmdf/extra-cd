@@ -1,12 +1,13 @@
-# ocd
-
 Change directory with shortcuts in Windows Console.
+> 1. Download [console script](https://github.com/winp/extra-cd/blob/master/ecd.cmd).
+> 2. Copy to `C:\Program_Files\Scripts`.
+> 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 
 
 ## usage
 
 ```batch
-> ocd [-|[-|+|=]<path>]
+> ecd [-|[-|+|=]<path>]
 
 :: [] -> optional argument
 :: <> -> argument value
@@ -14,35 +15,39 @@ Change directory with shortcuts in Windows Console.
 
 ```batch
 :: change to DOSBox directory
-> ocd "C:\Program Files (x86)\DOSBox-0.74"
+> ecd "C:\Program Files (x86)\DOSBox-0.74"
 
 :: change to up one directory
-> ocd ..
+> ecd ..
 
 :: stay at current directory (list contents)
-> ocd .
+> ecd .
 
 :: change to previous directory
-> ocd -
+> ecd -
 
 :: add current directory as shortcut
-> ocd +dosbox
+> ecd +dosbox
 
 :: change to root directory
-> ocd C:\
+> ecd C:\
 
 :: change to DOSBox directory using shortcut
-> ocd =dosbox
+> ecd =dosbox
 
 :: remove DOSBox shortcut
-> ocd -dosbox
+> ecd -dosbox
 
 :: add relative path shortcut
-> ocd +up3 ../../..
+> ecd +up3 ../../..
 
 :: go up 3 directories
-> ocd =up3
+> ecd =up3
 
 :: remove relative path shortcut
-> ocd -up3
+> ecd -up3
 ```
+<br><br>
+
+
+[![Merferry](https://i.imgur.com/Ki9lyzP.jpg)](https://merferry.github.io)
