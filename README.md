@@ -1,5 +1,5 @@
 Change directory with shortcuts in Windows Console.
-> 1. Download [console script](https://raw.githubusercontent.com/winp/extra-cd/master/ecd.cmd).
+> 1. Download [console script](https://github.com/winp/extra-cd/releases/download/1.0.0/ecd.cmd).
 > 2. Copy to `C:\Program_Files\Scripts`.
 > 3. Add `C:\Program_Files\Scripts` to `PATH` environment variable.
 
